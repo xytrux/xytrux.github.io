@@ -40,7 +40,7 @@
       padding: 60px 40px;
       background: #fff;
       border-bottom: 2px solid #ccc;
-      gap: 150px;
+      gap: 60px;
       max-width: 1200px;
       margin: 0 auto;
     }
@@ -79,25 +79,29 @@
     }
 
     .feature {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
       background-color: #f5f5f5;
-      padding: 12px;
+      padding: 20px;
       border: 1px solid #ccc;
     }
 
     .feature img {
-      width: 40px;
+      width: 75px;
       height: auto;
-      margin-bottom: 10px;
+      flex-shrink: 0;
     }
 
     .feature h3 {
       font-size: 15px;
-      margin-bottom: 6px;
+      margin: 0 0 6px 0;
     }
 
     .feature p {
       font-size: 13px;
       color: #555;
+      margin: 0;
     }
 
     .portfolio {
@@ -186,23 +190,31 @@
       <div class="hero-features">
         <div class="feature">
           <img src="images/overviewfeature_160gb20070905.png" alt="160GB Icon" />
-          <h3>Up to 160GB</h3>
-          <p>iPod classic puts your entire music and video collection in your pocket.</p>
+          <div>
+            <h3>Up to 160GB</h3>
+            <p>iPod classic puts your entire music and video collection in your pocket.</p>
+          </div>
         </div>
         <div class="feature">
           <img src="images/overviewfeature_interface20070905.png" alt="Enhanced Interface" />
-          <h3>Enhanced Interface</h3>
-          <p>Experience a whole new way to browse and view your music and video.</p>
+          <div>
+            <h3>Enhanced Interface</h3>
+            <p>Experience a whole new way to browse and view your music and video.</p>
+          </div>
         </div>
         <div class="feature">
           <img src="images/overviewfeature_coverflow20070905.png" alt="Cover Flow" />
-          <h3>Cover Flow</h3>
-          <p>Use the patented Click Wheel to flip through your music by album cover.</p>
+          <div>
+            <h3>Cover Flow</h3>
+            <p>Use the patented Click Wheel to flip through your music by album cover.</p>
+          </div>
         </div>
         <div class="feature">
           <img src="images/overviewfeature_design20070905.png" alt="Sleeker Design" />
-          <h3>Sleeker Design</h3>
-          <p>Beautifully redesigned, iPod classic features a sleek, new all-metal enclosure.</p>
+          <div>
+            <h3>Sleeker Design</h3>
+            <p>Beautifully redesigned, iPod classic features a sleek, new all-metal enclosure.</p>
+          </div>
         </div>
       </div>
     </div>
